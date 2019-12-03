@@ -1,0 +1,13 @@
+[package]
+name = "noisebox"
+version = "0.1.0"
+authors = ["mishazawa <macintoshkrug@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cpal = "0.10.0"
+
+[target.armv7-unknown-linux-gnueabihf]
+linker = "arm-linux-gnueabihf-gcc-4.7"
