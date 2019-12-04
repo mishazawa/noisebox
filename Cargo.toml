@@ -8,6 +8,3 @@ edition = "2018"
 
 [dependencies]
 cpal = "0.10.0"
-
-[target.armv7-unknown-linux-gnueabihf]
-linker = "arm-linux-gnueabihf-gcc-4.7"
